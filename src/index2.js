@@ -262,7 +262,7 @@ window.onload = () => {
 
     })
 
-    var diff = ["img/SmallCactus2.png", "img/Smallcactus3.png", "img/LargeCactus2.png", "img/cactus.png"];
+    var diff = ["img/SmallCactus2.png", "img/SmallCactus3.png", "img/LargeCactus2.png", "img/cactus.png"];
 
     var images = [];
     for (var p = 0; p < diff.length; p++) {
