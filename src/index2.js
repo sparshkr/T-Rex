@@ -170,7 +170,7 @@ window.onload = () => {
                 setInterval(() => {
                     i++;
                     scr.innerHTML = ("score " + i);
-
+                    console.log(i);
                 }, 1000);
             }
 
@@ -265,7 +265,7 @@ window.onload = () => {
     var diff = ["img/SmallCactus2.png", "img/Smallcactus3.png", "img/LargeCactus2.png"];
 
     var images = [];
-    for (var i = 0; i < diff.length; i++) {
+    for (var p = 0; p < diff.length; p++) {
         var img = new Image();
         img.src = diff[i];
         images.push(img);
